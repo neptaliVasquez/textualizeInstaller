@@ -1,0 +1,138 @@
+/* installer.tcss - Dark Theme */
+
+/* Global Layout */
+Screen {
+    background: #1e1e1e; /* Dark background */
+    color: #f0f0f0;      /* Light text */
+}
+
+/* Center container */
+#center {
+    align: center middle;
+    height: 100%;
+    width: 100%;
+    content-align: center middle;
+    padding: 2 4;
+}
+
+/* Labels and titles */
+Label {
+    text-style: bold;
+    padding-bottom: 1;
+    padding-top: 1;
+    color: #ffffff;
+}
+
+#done {
+    padding-top: 2;
+    text-style: italic;
+    color: #999999;
+}
+
+Input {
+    background: #2d2d2d;
+    color: white;
+    border: blank #666;
+    width: 60%;
+}
+
+/* Primary button */
+.primary-btn {
+    background: #007acc;
+    color: white;
+    padding: 1 4;
+    text-style: bold;
+    margin-top: 1;
+    border: none;
+}
+
+/* Secondary button */
+.secondary-btn {
+    background: #444444;
+    color: #dddddd;
+    border: none;
+    padding: 1 4;
+    text-style: bold;
+    margin-top: 1;
+    margin-right: 2;
+}
+
+/* Status messages */
+LoadingIndicator {
+    color: #00bfff;
+    margin-top: 1;
+}
+
+#center {
+    padding: 2 4;
+    width: 100%;
+    content-align: center middle;
+}
+
+#scroll-section {
+    height: 7fr;
+    margin-left: 2;
+}
+
+#title {
+    text-style: bold;
+    margin-bottom: 1;
+    color: yellow;
+}
+
+#button-row {
+    align-horizontal: center;
+    padding-top: 1;
+}
+
+TextArea {
+    background: #2d2d2d;
+    color: white;
+    border: blank #2d2d2d;
+    width: 90%;
+    margin-bottom: 1;
+}
+.cert-box {
+    height: 7;
+    color: white;
+    margin-bottom: 1;
+    width: 95%;
+}
+#license-layout {
+    height: 100%;
+    padding: 2;
+    overflow: auto;
+}
+
+#license-scroll {
+    height: 80%;
+    overflow: auto;
+    padding-bottom: 1;
+}
+
+#license-box {
+    border: solid #555;
+    padding: 1;
+    background: #1e1e1e;
+    color: rgb(255, 255, 255);
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+#license-buttons {
+    align-horizontal: center;
+    padding-top: 1;
+}
+
+#license-note {
+    text-style: italic;
+    color: #83f7a6;
+    margin-top: 1;
+    width: 90%;
+    content-align: center middle;
+}
+#status {
+    color: cyan;
+    padding-top: 1;
+    text-style: bold;
+}
