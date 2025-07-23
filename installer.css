@@ -1,18 +1,17 @@
-/* installer.tcss - Dark Theme */
-
 /* Global Layout */
 Screen {
     background: #1e1e1e; /* Dark background */
     color: #f0f0f0;      /* Light text */
 }
 
+#btn-row {
+    align-horizontal: center;
+    padding-top: 1;
+}
+
 /* Center container */
 #center {
-    align: center middle;
-    height: 100%;
-    width: 100%;
-    content-align: center middle;
-    padding: 2 4;
+  align: center middle;
 }
 
 /* Labels and titles */
@@ -54,19 +53,24 @@ Input {
     padding: 1 4;
     text-style: bold;
     margin-top: 1;
-    margin-right: 2;
+    margin-left: 2;
 }
+
+.info-btn {
+    background: #f4f807ff;
+    color: #1e1e1e;
+    border: none;
+    padding: 1 4;
+    text-style: bold;
+    margin-top: 1;
+    margin-left: 2;
+}
+
 
 /* Status messages */
 LoadingIndicator {
     color: #00bfff;
     margin-top: 1;
-}
-
-#center {
-    padding: 2 4;
-    width: 100%;
-    content-align: center middle;
 }
 
 #scroll-section {
@@ -85,19 +89,6 @@ LoadingIndicator {
     padding-top: 1;
 }
 
-TextArea {
-    background: #2d2d2d;
-    color: white;
-    border: blank #2d2d2d;
-    width: 90%;
-    margin-bottom: 1;
-}
-.cert-box {
-    height: 7;
-    color: white;
-    margin-bottom: 1;
-    width: 95%;
-}
 #license-layout {
     height: 100%;
     padding: 2;
@@ -105,7 +96,7 @@ TextArea {
 }
 
 #license-scroll {
-    height: 80%;
+    height: 70%;
     overflow: auto;
     padding-bottom: 1;
 }
@@ -135,4 +126,132 @@ TextArea {
     color: cyan;
     padding-top: 1;
     text-style: bold;
+}
+
+#progress-row {
+    padding: 1;
+    align-horizontal: center;
+}
+
+#progress {
+    height: 3; 
+    width: 14%;
+    border: round green;
+}
+#center-progress {
+    content-align: center middle;
+    padding-top: 2;
+}
+
+#package-list {
+    padding-left: 2;
+    margin-top: 1;
+    margin-bottom: 1;
+}
+#form-title {
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#form-fields {
+    padding: 1;
+    margin-bottom: 1;
+    width: 80%;
+    height:1fr;
+}
+
+#form-columns {
+    width: 90%;
+    height: 1fr;
+    content-align: center middle;
+    padding: 1;
+}
+
+#column-left, #column-right {
+    width: 40%;
+    margin-left: 1;
+    margin-right: 1;
+}
+
+#subfolder-layout {
+    align: center middle;
+    padding: 2;
+    width: 80%;
+    height: auto;
+    content-align: center middle;
+}
+
+#subfolder-choice {
+    layout: horizontal;
+    align: center middle;
+    padding: 1;
+    border: round #014b35;
+    width: 30%;
+}
+
+RadioButton {
+    width: auto;
+    padding: 0 3;
+}
+
+RadioButton:focus {
+  background: transparent;
+  border: none;
+  text-style: none;
+}
+
+RadioButton.-selected {
+  background: transparent;
+  color: white;
+  text-style: bold;
+}
+
+#subfolder-input {
+    width: 30%;
+    margin: 1;
+}
+
+.proxy-input {
+  width: 30%;
+  margin: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+
+#proxy-select {
+  width: 30%;
+  margin: 1;
+}
+
+#progress-line {
+    align-horizontal: center;
+    padding-bottom: 1;
+}
+
+#form-container {
+    width: 80%;
+    padding: 3;
+}
+#progress-line {
+    align-horizontal: center;
+    height: auto;
+    margin-bottom: 3;
+}
+
+.progress-label {
+    padding-top: 1;
+}
+
+#spinner {
+    padding-top: 1;
+    height: auto;
+    margin-left: 2;
+}
+
+.hint-text {
+    padding-top: 0;
+    padding-bottom: 0;
 }
