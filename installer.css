@@ -162,7 +162,7 @@ LoadingIndicator {
 
 #form-columns {
     width: 90%;
-    height: 1fr;
+    height: 2fr;
     content-align: center middle;
     padding: 1;
 }
@@ -254,4 +254,9 @@ RadioButton.-selected {
 .hint-text {
     padding-top: 0;
     padding-bottom: 0;
+}
+
+.error-label {
+    color: red;
+    padding-top: 1;
 }
