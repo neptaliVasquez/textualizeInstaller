@@ -4,6 +4,15 @@ Screen {
     color: #f0f0f0;      /* Light text */
 }
 
+TextArea{
+    background: #2d2d2d;
+    color: white;
+    border: solid #666;
+    padding: 1;
+    height: 2fr;
+    width: 80%;
+}
+
 #btn-row {
     align-horizontal: center;
     padding-top: 1;
@@ -235,6 +244,16 @@ RadioButton.-selected {
     width: 80%;
     padding: 3;
 }
+
+#ssl-form{
+    width: 90%;
+    padding: 4;
+    height: 5fr;
+    margin-bottom: 2;
+    margin-left: 4;
+}
+
+
 #progress-line {
     align-horizontal: center;
     height: auto;
